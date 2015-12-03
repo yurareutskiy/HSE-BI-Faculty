@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DB151DFE1BD22C7B0046CB53"
-               BuildableName = "HSE BI Faculty.app"
-               BlueprintName = "HSE BI Faculty"
-               ReferencedContainer = "container:HSE BI Faculty.xcodeproj">
+               BlueprintIdentifier = "B1A285FB1BD7DDA500A2C6BF"
+               BuildableName = "dev.biapp.app"
+               BlueprintName = "dev.biapp"
+               ReferencedContainer = "container:dev.biapp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,34 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B1A286121BD7DDA800A2C6BF"
+               BuildableName = "dev.biappTests.xctest"
+               BlueprintName = "dev.biappTests"
+               ReferencedContainer = "container:dev.biapp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B1A2861D1BD7DDA800A2C6BF"
+               BuildableName = "dev.biappUITests.xctest"
+               BlueprintName = "dev.biappUITests"
+               ReferencedContainer = "container:dev.biapp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB151DFE1BD22C7B0046CB53"
-            BuildableName = "HSE BI Faculty.app"
-            BlueprintName = "HSE BI Faculty"
-            ReferencedContainer = "container:HSE BI Faculty.xcodeproj">
+            BlueprintIdentifier = "B1A285FB1BD7DDA500A2C6BF"
+            BuildableName = "dev.biapp.app"
+            BlueprintName = "dev.biapp"
+            ReferencedContainer = "container:dev.biapp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB151DFE1BD22C7B0046CB53"
-            BuildableName = "HSE BI Faculty.app"
-            BlueprintName = "HSE BI Faculty"
-            ReferencedContainer = "container:HSE BI Faculty.xcodeproj">
+            BlueprintIdentifier = "B1A285FB1BD7DDA500A2C6BF"
+            BuildableName = "dev.biapp.app"
+            BlueprintName = "dev.biapp"
+            ReferencedContainer = "container:dev.biapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB151DFE1BD22C7B0046CB53"
-            BuildableName = "HSE BI Faculty.app"
-            BlueprintName = "HSE BI Faculty"
-            ReferencedContainer = "container:HSE BI Faculty.xcodeproj">
+            BlueprintIdentifier = "B1A285FB1BD7DDA500A2C6BF"
+            BuildableName = "dev.biapp.app"
+            BlueprintName = "dev.biapp"
+            ReferencedContainer = "container:dev.biapp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
