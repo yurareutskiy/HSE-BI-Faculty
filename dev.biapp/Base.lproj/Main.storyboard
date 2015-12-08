@@ -29,6 +29,39 @@
             </objects>
             <point key="canvasLocation" x="1147" y="407"/>
         </scene>
+        <!--First View-->
+        <scene sceneID="VLl-0w-WM4">
+            <objects>
+                <viewController storyboardIdentifier="firstView" id="hPd-FX-GJw" customClass="firstView" customModule="dev_biapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vML-HZ-q6k"/>
+                        <viewControllerLayoutGuide type="bottom" id="eX4-Zn-VsG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QsU-D3-wkt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MX-f2-iMK">
+                                <rect key="frame" x="279" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6MX-f2-iMK" firstAttribute="centerX" secondItem="QsU-D3-wkt" secondAttribute="centerX" id="c1m-Rh-Eqp"/>
+                            <constraint firstItem="6MX-f2-iMK" firstAttribute="top" secondItem="vML-HZ-q6k" secondAttribute="bottom" id="v3q-DV-Rdh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tstLbl" destination="6MX-f2-iMK" id="BRs-0q-tEg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sLh-in-pxH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1774" y="407"/>
+        </scene>
         <!--View Controller2-->
         <scene sceneID="SRh-SX-mE1">
             <objects>
@@ -77,10 +110,28 @@
             </objects>
             <point key="canvasLocation" x="1774" y="1082"/>
         </scene>
-        <!--View Controller-->
+        <!--First Time View Controller-->
+        <scene sceneID="91g-2d-VHI">
+            <objects>
+                <viewController storyboardIdentifier="FirstTimeViewController" id="OVe-B6-RDn" customClass="FirstTimeViewController" customModule="dev_biapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1y6-BG-ug1"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Hs-fb-zvz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8qi-kd-YE7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e1v-dX-L3s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2421" y="407"/>
+        </scene>
+        <!--View Controller For Test-->
         <scene sceneID="E93-pA-sKg">
             <objects>
-                <viewController storyboardIdentifier="ViewController4" id="rbm-ww-Hka" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController4" id="rbm-ww-Hka" customClass="ViewControllerForTest" customModule="dev_biapp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tMM-md-OT3"/>
                         <viewControllerLayoutGuide type="bottom" id="XiQ-KT-zEk"/>
@@ -88,8 +139,22 @@
                     <view key="view" contentMode="scaleToFill" id="gz0-UN-bif">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7LL-l3-j7V" customClass="DKDropMenu" customModule="dev_biapp" customModuleProvider="target">
+                                <rect key="frame" x="156" y="69" width="288" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7LL-l3-j7V" firstAttribute="centerX" secondItem="gz0-UN-bif" secondAttribute="centerX" id="SkU-sD-70w"/>
+                            <constraint firstItem="7LL-l3-j7V" firstAttribute="top" secondItem="tMM-md-OT3" secondAttribute="bottom" constant="49" id="U0R-nl-8MF"/>
+                            <constraint firstItem="XiQ-KT-zEk" firstAttribute="top" secondItem="7LL-l3-j7V" secondAttribute="bottom" constant="501" id="YYg-Mh-btf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dropMenu" destination="7LL-l3-j7V" id="ssS-9r-X8d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TC5-Yn-piJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

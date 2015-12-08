@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B17B69AE1BE8CDA100057294 /* FirstTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B69AD1BE8CDA100057294 /* FirstTimeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B17B69B31BE8D26400057294 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B69B11BE8D26400057294 /* Events.swift */; settings = {ASSET_TAGS = (); }; };
+		B17B69B41BE8D26400057294 /* Events.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17B69B21BE8D26400057294 /* Events.xib */; settings = {ASSET_TAGS = (); }; };
+		B17B69B71BE8D28100057294 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B69B51BE8D28100057294 /* EventsCell.swift */; settings = {ASSET_TAGS = (); }; };
+		B17B69B81BE8D28100057294 /* EventsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B17B69B61BE8D28100057294 /* EventsCell.xib */; settings = {ASSET_TAGS = (); }; };
+		B17B69BA1BE8D5BE00057294 /* ViewControllerForTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B69B91BE8D5BE00057294 /* ViewControllerForTest.swift */; settings = {ASSET_TAGS = (); }; };
+		B17B69BC1BE8D61500057294 /* DKDropMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17B69BB1BE8D61500057294 /* DKDropMenu.swift */; settings = {ASSET_TAGS = (); }; };
 		B187CDED1BDFA69000105B7A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B187CDEC1BDFA69000105B7A /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
 		B187CDEF1BDFA98F00105B7A /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B187CDEE1BDFA98F00105B7A /* MyNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
 		B1A286001BD7DDA500A2C6BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A285FF1BD7DDA500A2C6BF /* AppDelegate.swift */; };
@@ -21,6 +28,11 @@
 		B1A286381BD7FCAE00A2C6BF /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286361BD7FCAE00A2C6BF /* ENSideMenu.swift */; settings = {ASSET_TAGS = (); }; };
 		B1A286391BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A286371BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift */; settings = {ASSET_TAGS = (); }; };
 		B1A2863B1BD7FE0000A2C6BF /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A2863A1BD7FE0000A2C6BF /* MyMenuTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B1C834FE1BE3CBA700C5329B /* SheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C834FC1BE3CBA700C5329B /* SheduleCell.swift */; settings = {ASSET_TAGS = (); }; };
+		B1C834FF1BE3CBA700C5329B /* SheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C834FD1BE3CBA700C5329B /* SheduleCell.xib */; settings = {ASSET_TAGS = (); }; };
+		B1C835021BE3CF6200C5329B /* Shedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C835001BE3CF6200C5329B /* Shedule.swift */; settings = {ASSET_TAGS = (); }; };
+		B1C835031BE3CF6200C5329B /* Shedule.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C835011BE3CF6200C5329B /* Shedule.xib */; settings = {ASSET_TAGS = (); }; };
+		B1FB70841BE655ED00FC1F3D /* man4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1FB70831BE655ED00FC1F3D /* man4.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B17B69AD1BE8CDA100057294 /* FirstTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstTimeViewController.swift; path = ../FirstTimeViewController.swift; sourceTree = "<group>"; };
+		B17B69B11BE8D26400057294 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Events.swift; path = ../Events.swift; sourceTree = "<group>"; };
+		B17B69B21BE8D26400057294 /* Events.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Events.xib; path = ../Events.xib; sourceTree = "<group>"; };
+		B17B69B51BE8D28100057294 /* EventsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsCell.swift; path = ../EventsCell.swift; sourceTree = "<group>"; };
+		B17B69B61BE8D28100057294 /* EventsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventsCell.xib; path = ../EventsCell.xib; sourceTree = "<group>"; };
+		B17B69B91BE8D5BE00057294 /* ViewControllerForTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerForTest.swift; sourceTree = "<group>"; };
+		B17B69BB1BE8D61500057294 /* DKDropMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKDropMenu.swift; sourceTree = SOURCE_ROOT; };
 		B187CDEC1BDFA69000105B7A /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		B187CDEE1BDFA98F00105B7A /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		B1A285FC1BD7DDA500A2C6BF /* dev.biapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dev.biapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +80,11 @@
 		B1A286361BD7FCAE00A2C6BF /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
 		B1A286371BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		B1A2863A1BD7FE0000A2C6BF /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		B1C834FC1BE3CBA700C5329B /* SheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheduleCell.swift; sourceTree = "<group>"; };
+		B1C834FD1BE3CBA700C5329B /* SheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SheduleCell.xib; sourceTree = "<group>"; };
+		B1C835001BE3CF6200C5329B /* Shedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shedule.swift; path = ../Shedule.swift; sourceTree = "<group>"; };
+		B1C835011BE3CF6200C5329B /* Shedule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Shedule.xib; path = ../Shedule.xib; sourceTree = "<group>"; };
+		B1FB70831BE655ED00FC1F3D /* man4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = man4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +139,15 @@
 				B1A286011BD7DDA500A2C6BF /* ViewController.swift */,
 				B187CDEE1BDFA98F00105B7A /* MyNavigationController.swift */,
 				B1A2863A1BD7FE0000A2C6BF /* MyMenuTableViewController.swift */,
+				B17B69B91BE8D5BE00057294 /* ViewControllerForTest.swift */,
+				B17B69BB1BE8D61500057294 /* DKDropMenu.swift */,
 				B187CDEC1BDFA69000105B7A /* ViewController2.swift */,
-				B1A286361BD7FCAE00A2C6BF /* ENSideMenu.swift */,
+				B1C834F61BE3C9C200C5329B /* Cells */,
+				B1C834F71BE3C9CA00C5329B /* ViewControllers */,
 				B1A286371BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift */,
+				B1FB70851BE655F200FC1F3D /* Images */,
+				B17B69AD1BE8CDA100057294 /* FirstTimeViewController.swift */,
+				B1A286361BD7FCAE00A2C6BF /* ENSideMenu.swift */,
 				B1A286031BD7DDA600A2C6BF /* Main.storyboard */,
 				B1A286321BD7E64B00A2C6BF /* CAPSPageMenu.swift */,
 				B1A286091BD7DDA700A2C6BF /* Assets.xcassets */,
@@ -144,6 +174,36 @@
 				B1A286241BD7DDA900A2C6BF /* Info.plist */,
 			);
 			path = dev.biappUITests;
+			sourceTree = "<group>";
+		};
+		B1C834F61BE3C9C200C5329B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B1C834FC1BE3CBA700C5329B /* SheduleCell.swift */,
+				B1C834FD1BE3CBA700C5329B /* SheduleCell.xib */,
+				B17B69B51BE8D28100057294 /* EventsCell.swift */,
+				B17B69B61BE8D28100057294 /* EventsCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B1C834F71BE3C9CA00C5329B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1C835001BE3CF6200C5329B /* Shedule.swift */,
+				B1C835011BE3CF6200C5329B /* Shedule.xib */,
+				B17B69B11BE8D26400057294 /* Events.swift */,
+				B17B69B21BE8D26400057294 /* Events.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B1FB70851BE655F200FC1F3D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B1FB70831BE655ED00FC1F3D /* man4.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +310,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1A2860D1BD7DDA700A2C6BF /* LaunchScreen.storyboard in Resources */,
+				B1FB70841BE655ED00FC1F3D /* man4.jpg in Resources */,
+				B17B69B41BE8D26400057294 /* Events.xib in Resources */,
 				B1A2860A1BD7DDA700A2C6BF /* Assets.xcassets in Resources */,
+				B17B69B81BE8D28100057294 /* EventsCell.xib in Resources */,
+				B1C835031BE3CF6200C5329B /* Shedule.xib in Resources */,
 				B1A286051BD7DDA600A2C6BF /* Main.storyboard in Resources */,
+				B1C834FF1BE3CBA700C5329B /* SheduleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,15 +341,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17B69B31BE8D26400057294 /* Events.swift in Sources */,
 				B1A286391BD7FCAE00A2C6BF /* ENSideMenuNavigationController.swift in Sources */,
 				B187CDED1BDFA69000105B7A /* ViewController2.swift in Sources */,
+				B1C835021BE3CF6200C5329B /* Shedule.swift in Sources */,
+				B17B69BC1BE8D61500057294 /* DKDropMenu.swift in Sources */,
+				B17B69BA1BE8D5BE00057294 /* ViewControllerForTest.swift in Sources */,
+				B1C834FE1BE3CBA700C5329B /* SheduleCell.swift in Sources */,
 				B1A286081BD7DDA600A2C6BF /* dev_biapp.xcdatamodeld in Sources */,
 				B187CDEF1BDFA98F00105B7A /* MyNavigationController.swift in Sources */,
 				B1A286021BD7DDA500A2C6BF /* ViewController.swift in Sources */,
 				B1A286381BD7FCAE00A2C6BF /* ENSideMenu.swift in Sources */,
 				B1A2863B1BD7FE0000A2C6BF /* MyMenuTableViewController.swift in Sources */,
+				B17B69B71BE8D28100057294 /* EventsCell.swift in Sources */,
 				B1A286331BD7E64B00A2C6BF /* CAPSPageMenu.swift in Sources */,
 				B1A286001BD7DDA500A2C6BF /* AppDelegate.swift in Sources */,
+				B17B69AE1BE8CDA100057294 /* FirstTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
